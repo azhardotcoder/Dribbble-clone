@@ -33,6 +33,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0 40px;
+    /* background-color: red; */
 }
 
 #nav-part1 {
@@ -48,8 +49,16 @@ body {
     font-size: 15px;
 }
 
+#nav-part1 h4:hover {
+    cursor: pointer;
+}
+
 #nav img {
     height: 60px;
+}
+
+#nav img:hover {
+    cursor: pointer;
 }
 
 #nav-part2 {
@@ -341,12 +350,95 @@ body {
     color: black;
 }
 
+/* -----Page 4 content start from here------ */
 
-footer {
-    height: 40%;
-    padding: 40px;
-    width: 100%;
-    margin-top: 100px;
-   position: relative;
-    background-color: rgb(240, 10, 10);
+#page4 {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
+
+.page4-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 100px;
+}
+
+
+.logo img {
+    margin-right: 70px;
+    width: 100px;
+}
+
+.logo img:hover {
+    cursor: pointer;
+}
+
+
+.buttons {
+    display: flex;
+}
+
+.buttons button {
+    color: #000000;
+    border: none;
+    background-color: white;
+    width: 100px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.buttons button:last-child {
+    margin-right: 0;
+}
+
+.social-media {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.social-media:hover {
+    cursor: pointer;
+}
+
+/* ----Footer section start from here----- */
+footer {
+    height: 40px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 100px;
+    font-weight: 200;
+}
+
+.footer-left {
+    float: left;
+    margin-left: 90px;
+}
+
+.footer-right {
+    float: right;
+    margin-right: 90px;
+}
+
+.footer-left a,
+.footer-right a {
+    color: #000000;
+
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-left a:hover,
+.footer-right a:hover {
+    color: #000000;
+}
+
+/* ----Responsive Start from here--------- */
