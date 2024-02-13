@@ -212,6 +212,10 @@ body {
     object-position: center;
 }
 
+#page2{
+    display: flex;
+    flex-direction: column;
+}
 
 
 #page2-content{
@@ -223,7 +227,9 @@ body {
     text-align: center;
     font-weight: 500;
     font-size: 50px;
+    margin-top: 50px;
     margin-bottom: 50px;
+    
 }
 
 .box {
@@ -443,12 +449,20 @@ footer {
    }
     
    
-    #page2-content{
-        padding-left: 25px;
-     }
+
+    #page2-content {
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+        align-content: center;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+    }
+    
      #page2 h1{
         font-size: 30px;
-        margin-top: 50px;
+        margin-top: 70px;
         margin-bottom: 10px;
      }
      #nav-part1 h4 {
