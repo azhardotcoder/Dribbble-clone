@@ -219,8 +219,10 @@ body {
 
 
 #page2-content{
-   padding-left: 100px;
-    display: inline-block;
+width: 80%;
+margin: auto;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(303px, 1fr));
 }
 
 #page2 h1 {
@@ -229,12 +231,10 @@ body {
     font-size: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
-    
 }
 
 .box {
-    height: 280px;
-    width: 320px;
+    
     border-radius: 10px;
     overflow: hidden;
     display: inline-block;
